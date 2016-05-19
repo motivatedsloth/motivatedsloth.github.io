@@ -9,8 +9,6 @@ Editing Text
 Moving Text
 
 
-> Written with [StackEdit](https://stackedit.io/).6
-
 
 
 
@@ -53,6 +51,9 @@ Moving Text
 
 
  
+
+
+
 
 
 
