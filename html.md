@@ -6,7 +6,6 @@ title: HTML
 Notes on HTML tags
 
 
-> Written with [StackEdit](https://stackedit.io/). 
 
 
 
@@ -130,5 +129,7 @@ Notes on HTML tags
 
 
 
+
+ 
 
 
