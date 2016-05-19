@@ -1,12 +1,35 @@
 ---
 layout: page
-title: HTML tags. Just some notes.
+title: HTML
 ---
 
 Notes on HTML tags
 
 
 > Written with [StackEdit](https://stackedit.io/). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
