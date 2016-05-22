@@ -1,4 +1,22 @@
+/**
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Kaushan Script', cursive;
+**/
+
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
+  margin: 0; padding: 0; 
+}
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/** site header **/
 body > header{
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
   padding: 1em 2em;
 }
 
