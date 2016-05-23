@@ -9,7 +9,7 @@
 title: Al Buss
 email: al@heybuss.us
 description: > # this means to ignore newlines until "baseurl:"
-Some of the crazy things that go through my head
+  Some of the crazy things that go through my head
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://motivatedsloth.github.io" # the base hostname & protocol for your site
 twitter_username: al_buss
