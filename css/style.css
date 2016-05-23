@@ -43,12 +43,22 @@ body > header{
   width:20px; height:20px;
 }
 
+.nav-toggle:active{
+  border:none;
+}
+
 .trigger{
   display:none;
 }
 
 nav:hover .trigger{
   display:block;
+}
+
+header > nav > a{
+  display:block;
+  text-align:right;
+  padding:2px 5px;
 }
 
 @media screen and (min-width: 1000px){
