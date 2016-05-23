@@ -55,7 +55,7 @@ nav:hover .trigger{
   display:block;
 }
 
-header > nav > a{
+header > nav  a{
   display:block;
   text-align:right;
   padding:2px 5px;
