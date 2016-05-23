@@ -8,7 +8,11 @@
 # Site settings
 title: Al Buss
 email: al@heybuss.us
-description: Some of the crazy things that go through my head
+tagline: Some of the crazy things that go through my head
+description: > 
+        Playing around with Jekyll and Git Pages. 
+        Also keeping some notes to help with my long term loss
+        of short term memory.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://motivatedsloth.github.io" # the base hostname & protocol for your site
 twitter_username: al_buss

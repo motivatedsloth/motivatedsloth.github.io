@@ -58,11 +58,11 @@ a:link:hover, a:visited:hover{
 
 /** borders and colors **/
 body > header{
-		box-shadow: 0 5px 5px -2px;
+		box-shadow: 0 3px 2px -1px;
 }
 
 body > footer{
-		box-shadow: 0 -4px 4px -2px darkseagreen;
+		box-shadow: inset 0 4px 4px -2px darkseagreen;
 }
 
 @media screen and (min-width: 1000px){
