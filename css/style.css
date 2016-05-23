@@ -43,7 +43,7 @@ body > header{
   width:20px; height:20px;
 }
 
-.nav-toggle:active{
+.nav-toggle:active, .nav-toggle:focus{
   border:none;
 }
 
@@ -70,5 +70,14 @@ header > nav  a{
   
   .nav-toggle{
     display:none;
+  }
+  
+  .trigger{
+    display:block;
+  }
+  
+  header > nav a{
+    display:inline-block;
+    float:right;
   }
 }
