@@ -64,6 +64,13 @@ header > nav  a{
   padding:2px 5px;
 }
 
+@media screen and (min-width: 768px){
+    header > nav a{
+      display:inline-block;
+    }
+}
+  
+
 @media screen and (min-width: 1000px){
   body > header{
     border-left:1px solid black;
@@ -79,7 +86,4 @@ header > nav  a{
     display:block;
   }
   
-  header > nav a{
-    display:inline-block;
-  }
 }
