@@ -30,10 +30,32 @@ body > header{
   padding: 1em 2em;
 }
 
+.site-title{
+  margin:10px 30px 10px 10px;
+}
+
+.nav-toggle{
+  position:absolute;
+  top:5px; right:5px;
+  width:20px; height:20px;
+}
+
+.trigger{
+  display:none;
+}
+
+nav:hover .trigger{
+  display:block;
+}
+
 @media screen and (min-width: 1000px){
   body > header{
     border-left:1px solid black;
     border-right:1px solid black;
     width: 900px;
+  }
+  
+  .nav-toggle{
+    display:none;
   }
 }
