@@ -20,3 +20,5 @@ github_username:  motivatedsloth
 
 # Build settings
 markdown: kramdown
+collections:
+        - html

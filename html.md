@@ -1,10 +1,8 @@
 ---
-layout: page
 title: HTML
+layout: default
 ---
-
-Notes on HTML tags
-
+{% include notes.html notes=site.html %}
 
 
 

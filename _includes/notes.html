@@ -1,0 +1,35 @@
+{% for note in include.notes %}
+<article class="note">
+
+  <header>
+    <h1>{{ note.title }}</h1>
+	<p>{{ note.description }}</p>
+	<p style="display: none;">{{ note.keywords }}</p>
+  </header>
+  <section class="note-content">{{ note.content }}</section>
+  {% if note.resources %}
+  <section class="note-resources">
+		  <h1>Resources</h1>
+		  <ul>
+		  {% for resource in note.resources %}
+				  <li>
+						  <a href="{{ resource.url }}">{{ resource.name }}</a>
+				  </li>
+		  {% endfor %}
+		  </ul>
+  </section>
+  {% endif %}
+  {% if note.examples %}
+  <section class="note-examples">
+		  <h1>Examples</h1>
+		  <ul>
+		  {% for example in note.examples %}
+				  <li>
+						  <a href="{{ example.url }}">{{ example.name }}</a>
+				  </li>
+		  {% endfor %}
+		  </ul>
+  </section>
+  {% endif %}
+</article>
+{% endfor %}
