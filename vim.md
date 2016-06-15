@@ -1,13 +1,8 @@
 ---
-layout: page
+layout: default
 title: VIM
 ---
-Moving Around
-
-Editing Text
-
-Moving Text
-
+{% include notes.html notes=site.vim %}
 
 
 
